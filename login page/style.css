@@ -1,0 +1,72 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* Centering Container */
+.login-container {
+  width: 300px;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Heading */
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Sign In Button */
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #45a049;
+}
+
+/* Create Account Link */
+.create-account {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.create-account a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.create-account a:hover {
+  text-decoration: underline;
+}
